@@ -50,12 +50,12 @@ layers:
   - MEDIA
   - '&td_fn'
   GAMING:
-  - $$mdi:apple-keyboard-control$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
   - {t: '$$mdi:menu-up$$', s: '&mmv MOVE_Y(-(800 * 4))'}
   - Y
   - U
@@ -63,12 +63,12 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
+  - $$mdi:apple-keyboard-shift$$
+  - A
+  - S
+  - D
+  - F
+  - G
   - {t: '$$mdi:menu-left$$', s: '&mmv MOVE_X(-(800 * 4))'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '&mmv MOVE_X((800 * 4))'}
@@ -78,12 +78,12 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
-  - A
-  - S
-  - D
+  - $$mdi:apple-keyboard-control$$
   - Z
+  - X
   - C
+  - V
+  - B
   - PLAY PAUSE
   - {t: '$$mdi:menu-down$$', s: '&mmv MOVE_Y((800 * 4))'}
   - N
